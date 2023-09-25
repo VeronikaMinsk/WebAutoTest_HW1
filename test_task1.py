@@ -17,7 +17,7 @@ def test_step1(user_login, post_title):
     created_title = created_post.get('title')
     assert created_title == post_title, 'Created post has incorrect title'
 
-    result_get = S.get(url=data['address'], headers={'X-Auth-Token': user_login}, params=post_data)
+    result_get = S.get(url=data['address'], headers={'X-Auth-Token': user_login})
     all_posts = result_get.json()['data']
     assert any(post['title'] == created_title for post in all_posts), 'Created post not found'
 
