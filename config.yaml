@@ -1,0 +1,9 @@
+url: "https://test-stand.gb.ru/gateway/login"
+address: "https://test-stand.gb.ru/api/posts"
+
+login: "qaz123"
+password: "34f85ca80e"
+
+title_new: 'Хрю-хря'
+description_new: 'Гусь свинье не товарищ'
+content_new: 'Быть или не быть'
